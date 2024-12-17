@@ -101,6 +101,9 @@ console.log(allArrs); // fxy
 /*
     Array Challenge
 */
+console.log("---------------------");
+console.log("-- Array Challenge --");
+console.log("---------------------");
 
 let zero = 0;
 
