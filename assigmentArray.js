@@ -83,3 +83,18 @@ if (haystack.lastIndexOf(needle) === 1) {
 } else {
     console.log("Not Found");
 }
+
+console.log("----------------------");
+console.log("-- التكليف 06 --");
+console.log("----------------------");
+
+let arr1 = ["A", "C", "X"];
+let arr2 = ["D", "E", "F", "Y"];
+let allArrs = [];
+
+allArrs = allArrs.concat(arr1, arr2).sort();
+console.log(allArrs);
+
+allArrs = allArrs.slice(4).join("").toLowerCase();
+console.log(allArrs); // fxy
+
