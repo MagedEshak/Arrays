@@ -119,7 +119,6 @@ my.pop();
 console.log(my.slice(0)); // ["Elham", "Mazero"]
 
 my = ["Elzero"];
-console.log(my); // "Elzero"
+console.log(`"${my}"`); // "Elzero"
 
-
-console.log(my[0][4] + my[0][5].toUpperCase()); // "rO"
+console.log(`"${my[0][4]}${my[0][5].toUpperCase()}"`); // "rO"
