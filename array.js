@@ -98,3 +98,18 @@ console.log(slicingArray);
 
 slicingArray.splice(0, 2, "Maged", "Mina");
 console.log(slicingArray);
+
+console.log("----------------------");
+console.log("7- Joining Arrays");
+console.log("----------------------");
+
+let myFriendsArrays = ["Ahmed", "Sayed", "Ali", "Osama", "Gamal", "Ameer"];
+let myNewFriendsArrays = ["Mohamed", "Sara", "Mina"];
+let shcoolFriendsArrays = ["Maged", "Shery"];
+
+let allFriends = myFriendsArrays.concat(myNewFriendsArrays, shcoolFriendsArrays,"Hesham", [2,5]);
+console.log(allFriends);
+
+console.log(allFriends.join());
+console.log(allFriends.join(" | "));
+console.log(allFriends.join(" | ").toUpperCase());
