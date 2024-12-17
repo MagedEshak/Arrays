@@ -98,3 +98,28 @@ console.log(allArrs);
 allArrs = allArrs.slice(4).join("").toLowerCase();
 console.log(allArrs); // fxy
 
+/*
+    Array Challenge
+*/
+
+let zero = 0;
+
+let counter = 3;
+
+let my = ["Ahmed", "Mazero", "Elham", "Osama", "Gamal", "Ameer"];
+
+my.pop();
+my.pop();
+console.log(my); 
+console.log(my.reverse()); // ["Osama", "Elham", "Mazero", "Ahmed"];
+
+my.shift();
+my.pop();
+
+console.log(my.slice(0)); // ["Elham", "Mazero"]
+
+my = ["Elzero"];
+console.log(my); // "Elzero"
+
+
+console.log(my[0][4] + my[0][5].toUpperCase()); // "rO"
