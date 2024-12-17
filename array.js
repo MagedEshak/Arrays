@@ -81,3 +81,20 @@ console.log(sortingArray);
 console.log(sortingArray.sort()); // يتعامل ابجديا ومع الارقام بيتعامل من 1:9 اللي بيبدأ بيه الرقم من الشمال
 console.log(sortingArray.reverse()); // بيعكس 
 console.log(sortingArray.sort().reverse()); 
+
+console.log("----------------------");
+console.log("6- Slicing Array");
+console.log("----------------------");
+
+let slicingArray = ["Ahmed", "Sayed", "Ali", "Osama", "Gamal", "Ameer"];
+console.log(slicingArray);
+
+console.log(slicingArray.slice())
+console.log(slicingArray.slice(2, 5));
+console.log(slicingArray.slice(-2, 4));
+console.log(slicingArray.slice(2, -2));
+console.log(slicingArray.slice(-3, -2));
+console.log(slicingArray);
+
+slicingArray.splice(0, 2, "Maged", "Mina");
+console.log(slicingArray);
