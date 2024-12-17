@@ -43,3 +43,7 @@ console.log("----------------------");
 console.log("-- التكليف 04 --");
 console.log("----------------------");
 
+let website = "Go";
+let words = [`${website}ogle`, "Facebook", ["Elzero", "Web", "School"]];
+
+console.log(words[0]="Zero".toUpperCase()); // ZERO
