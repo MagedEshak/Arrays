@@ -5,7 +5,9 @@ let myFriends = ["Maged", "Abanob", "Youseef", ["Shery", "Sara"]];
 console.log(myFriends);
 
 
-console.log(myFriends[0]);
+console.log(myFriends[0]); //Maged
+console.log(myFriends[0][2]); //g
+
 
 myFriends[3][0] = "Mama";
 console.log(myFriends[3]);
@@ -51,7 +53,7 @@ console.log(myFriendse);
 console.log(`Last Name Is ${last}`);
 
 console.log("----------------------");
-console.log("4- Add And Remove From Array");
+console.log("4- Searching Array");
 console.log("----------------------");
 
 let myArr = ["Maged", "Abanob", "Youseef", "Mama", "Shery"]
