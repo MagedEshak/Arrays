@@ -28,5 +28,18 @@ let pop = friends.pop();
 console.log(friends); // ["Eman", "Osama"]
 
 console.log("----------------------");
-console.log("-- التكليف 02 --");
+console.log("-- التكليف 03 --");
 console.log("----------------------");
+
+let arrOne = ["C", "D", "X"];
+let arrTwo = ["A", "B", "Z"];
+let finalArr = [];
+
+finalArr = finalArr.concat(arrOne, arrTwo).sort().reverse();
+
+console.log(finalArr); // ["Z", "X", "D", "C", "B", "A"]
+
+console.log("----------------------");
+console.log("-- التكليف 04 --");
+console.log("----------------------");
+
