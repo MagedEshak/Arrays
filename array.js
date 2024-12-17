@@ -50,3 +50,34 @@ let last =myFriendse.pop(); //   - pop() Remove Last Element From Array
 console.log(myFriendse);
 console.log(`Last Name Is ${last}`);
 
+console.log("----------------------");
+console.log("4- Add And Remove From Array");
+console.log("----------------------");
+
+let myArr = ["Maged", "Abanob", "Youseef", "Mama", "Shery"]
+console.log(myArr); // ;
+console.log(myArr.indexOf("Abanob"));
+console.log(myArr.indexOf("Mama", 3));
+
+
+console.log(myArr.lastIndexOf("Mama"));
+console.log(myArr.lastIndexOf("Abanob", -2 ));
+
+console.log(myArr.includes("Mama"));
+
+if (myArr.lastIndexOf("Mama") === -1) {
+    console.log("Not Found");
+} else {
+        console.log("Founded");
+}
+
+console.log("----------------------");
+console.log("5- Sorting Array");
+console.log("----------------------");
+
+let sortingArray = ["Maged", "Abanob", 5, "Youseef", 1000, "Mama", -30, "Shery", "200"];
+
+console.log(sortingArray);
+console.log(sortingArray.sort()); // يتعامل ابجديا ومع الارقام بيتعامل من 1:9 اللي بيبدأ بيه الرقم من الشمال
+console.log(sortingArray.reverse()); // بيعكس 
+console.log(sortingArray.sort().reverse()); 
