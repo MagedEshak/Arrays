@@ -46,4 +46,40 @@ console.log("----------------------");
 let website = "Go";
 let words = [`${website}ogle`, "Facebook", ["Elzero", "Web", "School"]];
 
-console.log(words[0]="Zero".toUpperCase()); // ZERO
+console.log(words[0] = "Zero".toUpperCase()); // ZERO
+
+console.log("----------------------");
+console.log("-- التكليف 05 --");
+console.log("----------------------");
+
+let needle = "JS";
+let haystack = ["PHP", "JS", "Python"];
+
+// Write 3 Solutions
+if (haystack.includes(needle) === true) {
+    console.log("Found");
+} else {
+    console.log("Not Found");
+}
+
+switch (haystack.includes(needle) === true) {
+    case true:
+            console.log("Found");
+        break;
+
+    default:
+            console.log("Not Found");
+        break;
+}
+
+if (haystack.indexOf(needle) === 1) {
+    console.log("Found");
+} else {
+    console.log("Not Found");
+}
+
+if (haystack.lastIndexOf(needle) === 1) {
+    console.log("Found");
+} else {
+    console.log("Not Found");
+}
